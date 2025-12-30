@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# AI/ML Models
+*.tflite
+*.h5
+*.pkl
+*.joblib
+*.model
+
+# 환경변수 및 민감정보
+.env
+.env.local
+*.key
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 데이터 파일 (선택사항 - 필요시 주석 해제)
+# *.csv
+# accident.csv
+# weather.csv
+
+# 로그
+*.log
+
+# 테스트/코verage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 임시 파일
+tmp/
+temp/
+*.tmp
+
